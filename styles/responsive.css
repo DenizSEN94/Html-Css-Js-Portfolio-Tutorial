@@ -1,0 +1,12 @@
+/* Navnar ALanı */
+/* 1200px Küçük Ekranda #desktop-nav Etiketini Gizle. */
+/* 1200px Küçük Ekranda #hamburger-nav Etiketini Göster. */
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+}
+/* Navnar ALanı END */
